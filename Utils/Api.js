@@ -1,8 +1,8 @@
 
 
-const URL = 'https://staging-api.wiseapp.live/institutes/646749284927953beeccb03f/sessions?status=FUTURE&classId=6979eab190cb1348aecbfefb&paginateBy=COUNT&page_size=10&page_number=1'
-const UPDATE_URL = 'https://staging-api.wiseapp.live/teacher/classes/6979eab190cb1348aecbfefb/sessions'
-const DELETE_URL = 'https://staging-api.wiseapp.live/teacher/classes/6979eab190cb1348aecbfefb/sessions'
+// const URL = 'https://staging-api.wiseapp.live/institutes/646749284927953beeccb03f/sessions?status=FUTURE&classId=6979eab190cb1348aecbfefb&paginateBy=COUNT&page_size=10&page_number=1'
+// const UPDATE_URL = 'https://staging-api.wiseapp.live/teacher/classes/6979eab190cb1348aecbfefb/sessions'
+// const DELETE_URL = 'https://staging-api.wiseapp.live/teacher/classes/6979eab190cb1348aecbfefb/sessions'
 
 export const dummyApi = async (limit=10) => {
     try {
