@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import { dummyApi, updateApi, deletApi } from '../Utils/Api'
 
-function App() {
+export default function App() {
   const [data, setData] = useState([])
   const [loading, setLoading] = useState(false)
   const [open, setOpen] = useState([])
@@ -165,4 +165,4 @@ function App() {
   )
 }
 
-export default App
+
